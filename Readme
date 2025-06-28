@@ -1,42 +1,42 @@
 # 🚨 Helmet Violation Detection System
 
-A real-time helmet violation detection system using **YOLOv8**, **Streamlit**, and **PaddleOCR**.
+A real-time helmet violation detection system built using **YOLOv8**, **Streamlit**, and **PaddleOCR**.
 
 This app detects:
-- Motorcyclists **without helmets** inside a defined area
-- Automatically captures and **logs number plates** for violators
+- Motorcyclists **without helmets** within a defined zone
+- Automatically captures and **logs number plates** of violators
 
 ---
 
 ## 🔧 Features
 
-- 🎥 **Live Detection** via Webcam or Uploaded Video
-- 🧠 **YOLOv8** for detecting helmets and number plates
-- 🔤 **PaddleOCR** for number plate recognition
-- 🗺️ Polygonal **Zone-based detection**
+- 🎥 **Live Detection** via Webcam or Uploaded Video  
+- 🧠 **YOLOv8** for detecting helmets and number plates  
+- 🔤 **PaddleOCR** for number plate recognition  
+- 🗺️ Polygonal **Zone-based detection**  
 - 📝 Fine Logging:
-  - Vehicle number
-  - Date and Time
-  - Snapshot of number plate
-- 📁 CSV Export of fine log
-- 📸 Image preview of all captured number plates
+  - Vehicle number  
+  - Date and Time  
+  - Snapshot of number plate  
+- 📁 Export fines as CSV  
+- 📸 Image preview of captured plates  
 
 ---
 
 ## 🖥️ Interface (Streamlit)
 
-- **Sidebar**: Live Violation History
+- **Sidebar**: View Violation History  
 - **Main View**:
-  - Live/resumed video feed
-  - Fine log table
-  - Download button
-  - Number plate snapshots
+  - Live/resumed video feed  
+  - Real-time fine log table  
+  - Number plate image gallery  
+  - Download fine log as CSV  
 
 ---
 
 ## 🧰 Installation
 
-Make sure Python 3.8+ is installed.
+> Make sure **Python 3.8+** is installed.
 
 ### 1. Clone the Repository
 
