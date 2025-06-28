@@ -14,12 +14,12 @@ This app detects:
 - 🧠 **YOLOv8** for detecting helmets and number plates  
 - 🔤 **PaddleOCR** for number plate recognition  
 - 🗺️ Polygonal **Zone-based detection**  
-- 📝 Fine Logging:
+- 📝 **Fine Logging**:
   - Vehicle number  
   - Date and Time  
   - Snapshot of number plate  
-- 📁 Export fines as CSV  
-- 📸 Image preview of captured plates  
+  - Export fines as CSV  
+  - Image preview of captured plates  
 
 ---
 
@@ -36,7 +36,7 @@ This app detects:
 
 ## 🧰 Installation
 
-> Make sure **Python 3.8+** is installed.
+> ✅ Requires **Python 3.8+**
 
 ### 1. Clone the Repository
 
